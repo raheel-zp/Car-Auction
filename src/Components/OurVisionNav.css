@@ -1,0 +1,199 @@
+.vision_header{
+    width: 100%;
+}
+.vision_header_area{
+    background-color: #003949;
+    padding: 3.5rem;
+    /* margin: 0 15%; */
+}
+.vision_header_area div{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    /* color: #222222; */
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.vision_header_area p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* color: #212529; */
+    color: white;
+}
+.vision_elem1_con{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 3rem;
+}
+.v_e1_left{
+    /* border: 2px solid red; */
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+.v_con1_extra{
+    margin-bottom: 14rem; 
+    margin-top: 9rem;
+    padding-bottom: 6rem;
+}
+.v_e1_width{
+    /* border: 1px solid black; */
+    width: 70%;
+}
+.v_e1_width_txt{
+    /* border: 1px solid black; */
+    width: 93%;
+}
+.c_e1_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #003949;
+    /* color: white; */
+    /* text-align: center; */
+    margin: 1rem 0 0.2rem 0;
+    width: 100%;
+}
+.c_e1_title2{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #003949;
+    width: 80%;
+    margin: 0;
+    text-decoration: underline;
+    margin-left: 8%;
+}
+.c_e1_para{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #003949;
+    /* color: white; */
+}
+.v_e1_right{
+    /* border: 2px solid red;     */
+    min-height: 20rem;
+    margin-left: 1rem;
+}
+.v_e1_right div{
+    width: 70%;
+}
+
+@media (max-width: 319px) {
+    /* Styles for screens up to 320 pixels */
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Styles for screens between 321 and 480 pixels */
+    .vision_header_area{
+        margin: 0;
+        padding: 0.6rem;
+    }
+    .v_e1_width {
+        width: 90%;
+    }
+    .v_e1_right {
+        margin-left: 0;
+    }
+    .v_e1_right div {
+        width: 90%;
+    }
+    .vision_header_area div {   
+        font-size: 19px;
+        line-height: 15px;
+    }
+    .vision_header_area p {   
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .c_e1_title {   
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .c_e1_title2 {   
+      font-size: 14px;
+    }
+    .c_e1_para {
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .v_con1_extra {
+      margin-bottom: 6rem;
+      margin-top: 4rem;
+      padding-bottom: 3rem;
+  }
+  .c_e1_title2 {
+    width: 90%;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Styles for screens between 321 and 480 pixels */
+    /* .vision_header_area{
+        margin: 0 5%;
+    } */
+    .v_e1_width {
+        width: 90%;
+    }
+    .v_e1_right {
+        margin-left: 0;
+    }
+    .v_e1_right div {
+        width: 90%;
+    }
+    .vision_header_area p {   
+      font-size: 16px;
+      line-height: 23px;
+    }
+    .c_e1_title {   
+      font-size: 20px;
+      line-height: 23px;
+    }
+    .c_e1_title2 {   
+      font-size: 22px;
+    }
+    .c_e1_para {
+      font-size: 16px;
+      line-height: 23px;
+    }
+    .v_con1_extra {
+      margin-bottom: 8rem;
+      margin-top: 5rem;
+      padding-bottom: 4rem;
+    }
+    .c_e1_title2 {
+      width: 90%;
+      margin-left: 2%;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Styles for screens between 321 and 480 pixels */
+    .vision_header_area p {   
+      font-size: 16px;
+      line-height: 23px;
+    }
+    .c_e1_title {   
+      font-size: 20px;
+      line-height: 23px;
+    }
+    .c_e1_title2 {   
+      font-size: 22px;
+    }
+    .c_e1_para {
+      font-size: 16px;
+      line-height: 23px;
+    }
+    
+}
+@media (min-width: 993px) {
+  /* Styles for screens above 993 pixels */
+}

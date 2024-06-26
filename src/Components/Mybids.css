@@ -1,0 +1,61 @@
+.my_info{
+    /* border: 2px solid red; */
+    height: 10rem;
+    padding: 0 13%;
+}
+.my_info_co{
+    max-width: 20rem;
+    /* border: 2px solid yellow; */
+}
+.my_info_co_title{
+    color: #222;
+    font-size: 2.4rem;
+    letter-spacing: 2.4px;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+.my_info_item{
+    /* border: 2px solid green; */
+    height: 5rem;
+    display: flex;
+}
+.my_info_left{
+    /* border: 2px solid red; */
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mfl_circle{
+    background-color: #222;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50rem;
+    box-shadow: 0px 0px 6px -2px #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my_info_right{
+    /* border: 2px solid red; */
+    padding-left: 1rem;    
+}
+.mydetails-msg{
+    font-size: 14px;
+    color: green;
+    font-weight: 500;
+    font-family: sans-serif;
+    height: 2.7rem;
+}
+
+
+.confirm-bid-btn{
+    color: white;
+    border: none;
+    background-color: #18b4a4;
+    font-size: 13px;
+    padding: 0px 20px;
+    border-radius: 7px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}

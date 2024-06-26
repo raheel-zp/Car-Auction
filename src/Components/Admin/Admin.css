@@ -1,0 +1,206 @@
+.flex_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.enquiry_box{
+    border: 2px solid #e0e0e080;
+    background-color: #f5f5f596;
+    border-radius: 9px;
+    height: 21rem;
+    width: 17rem;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.enquiry_img{
+    /* border: 2px solid red; */
+    height: 10rem;
+    margin: 8px;
+    border-radius: 13px;
+}
+.e_box_bottom{
+    padding: 0 12px;
+}
+.e_carMake{
+    text-transform: uppercase;
+    height: 1rem;
+    overflow: hidden;
+}
+.e_carModel{
+    margin: 5px 0px;
+    height: 2rem;
+    overflow: hidden;
+}
+.e_notes{
+    font-size: 13px;
+    height: 4rem;
+    overflow: hidden;
+}
+.e_email{
+    font-size: 13px;
+    color: green;
+    font-weight: 500;
+    overflow: hidden;
+    height: 1rem;
+}
+.e_time{
+    display: flex;
+    justify-content: space-between;
+    height: 1rem;
+}
+.enquiry_img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.popup-container1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    /* width: 100%;
+    height: 100%;
+    max-width: 10000px; */
+}
+.eb_dialog_header{
+    border-bottom: 1px solid #4247cd17;
+    margin: 0 30px;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 0% 100%;
+}
+.cons_dialog_header{
+    height: 4rem;
+    border-bottom: 1px solid #4247cd17;
+}
+.eb_dialog_body{
+    /* border: 2px solid black; */
+    /* height: 100%; */
+    height: 33rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.eb_d_left{
+    /* border: 2px solid red; */
+    padding: 0 1.5rem 0 2rem;
+}
+.eb_left_title span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #479ab2;
+    border: 1px solid #479ab226;
+    background-color: #479ab20d;
+    border-radius: 6px;
+    padding: 3px 5px;
+}
+.eb_left_row{
+    margin: 5px 0px;
+    font-size: 15px;
+}
+.eb_left_title{
+    margin: 10px 0px;
+}
+.over_flow_scroll{
+    overflow-y: scroll;
+    height: 6rem;
+    padding-left: 10px;
+}
+.ml-7{
+    padding-left: 10px;
+    height: 1.3rem;
+}
+.eb_left_row span{
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #47b2841f;
+    background-color: #47b2840a;
+    border-radius: 6px;
+    padding: 2px 3px;
+    color: #47b284;
+}
+.eb_d_right{
+    border-left: 1px solid #4247cd17;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.eb_d_right_img{
+    /* border: 2px solid green; */
+    height: 7rem;
+    margin: 0.6rem;
+    border-radius: 6px;
+}
+.eb_dialog_footer{
+    /* border: 2px solid black; */
+    height: 6rem;
+}
+.flex{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root{
+    padding: 16.5px 12px;
+}
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root { 
+    font-size: 0.98rem;
+}
+
+.pag_arrow_left{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    position: absolute;
+    top: 16rem;
+    left: 9px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.pag_arrow_right{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    position: absolute;
+    top: 16rem;
+    right: 9px;
+    cursor: pointer;
+}
+.charge_btn{
+    color: white;
+    /* border: 1px solid black; */
+    box-shadow: 2px 0px 54px -7px #239d3e4d;
+    background-color: #038f03;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 13px;
+    margin-right: 1rem;
+    cursor: pointer;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

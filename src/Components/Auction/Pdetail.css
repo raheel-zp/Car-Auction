@@ -1,0 +1,9 @@
+.header-bg{
+    height: 88px;
+}
+
+@media (max-width: 765px) {
+    .header-bg{
+        height: 188px;
+    }
+}

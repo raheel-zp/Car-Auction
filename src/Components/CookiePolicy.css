@@ -1,0 +1,77 @@
+.cp_main{
+    display: flex;
+    justify-content: center;
+}
+.cp_con2{
+    /* width: 25rem; */
+    margin: 0 17%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 2rem 1rem;
+}
+.cp_2_header{
+    margin-bottom: 2rem;    
+}
+.cp_2_para{
+    margin: 0.5rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #003949;
+}
+.cp_2_para ul{
+    list-style-type: disc;
+}
+.cp_main {
+    font-family: 'Manrope',sans-serif;
+    /* background-color: #f5f5f5; */
+    background-color: white;
+    padding: 30px 0;
+}
+
+.cp_con2 {
+      font-family: 'Manrope';
+    background-color: #dedede0f;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cp_2_header {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #003949;
+}
+
+.cp_2_para {
+    margin-bottom: 20px;
+}
+
+.cp_list {
+  font-family: 'Manrope';
+  list-style-type: disc;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.cp_2_sub_header {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003949;
+}
+.cp_2_para ul li::marker{
+    color: #003949;
+}
+.cp_list li::marker{
+    color: #003949;
+}
+  
+.cp_2_description {
+  margin-top: 5px;
+}  

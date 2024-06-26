@@ -1,0 +1,264 @@
+@import 'https://unpkg.com/swiper/swiper-bundle.min.css';
+
+.main-gallery1{
+    position: fixed;
+    border: 2px solid black;
+    background-color: #000000de;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+/* .mySwiper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+/* .swiper-container {
+    display: flex;
+    justify-content: center;
+} */
+.swiper-wrapper {
+    justify-content: start;
+}
+.mySwiper div{
+    display: flex;
+    justify-content: start;
+    /* gap: 0.5rem; */
+  }
+.thumbnail-image {
+    width: 100%;
+    /* border: 2px solid #ffffffc9; */
+    border-radius: 8px;
+    cursor: pointer;
+}
+.main-image-container {
+    position: relative;
+}
+.main-image {
+    width: 100vw;
+    height: 80vh;
+    object-fit: contain;
+    margin-bottom: 0.7rem;
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+}
+.custom-next-arrow{
+    position: fixed;
+    top: 43%;
+    right: 3%;
+    cursor: pointer;
+}
+.custom-next-arrow svg{
+    fill: #bebebe;
+    /* fill: white; */
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.custom-next-arrow svg:hover{
+    fill: white;
+    filter: drop-shadow(0 0 5px #ffffff80);
+}
+.custom-prev-arrow{
+    position: fixed;
+    top: 43%;
+    left: 3%;
+    cursor: pointer;    
+}
+.custom-prev-arrow svg{
+    fill: #bebebe;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.custom-prev-arrow svg:hover{
+    fill: white;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+.gallery-header{
+    height: 3rem;
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.gallery-header2{
+    height: 4rem;
+    display: none;
+}
+.head-mob-con1 {
+    margin: 0 1rem;
+}
+.gh_left{
+    /* border: 1px solid white; */
+    height: 100%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    color: #ffffffb5;
+}
+.gh_mid{
+    /* border: 1px solid white; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.gh_mid div{
+    cursor: pointer;
+    color: #ffffffb5;
+    letter-spacing: 2px;
+    font-size: 15px;    
+}
+
+.gh_right{
+    /* border: 1px solid white; */
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+.gh_right svg{    
+    /* background-color: #bebebe82; */
+    border-radius: 8px;
+    padding: 3px 6px;
+    fill: #bebebe;
+    height: 2rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.gh_right svg:hover{
+    background-color: #bebebe46;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+    fill: white;
+}
+.activeHeader{
+    color: white;
+    filter: drop-shadow(0px 0px 5px #ffffff80);
+}
+.slide-img-con{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+.head-mob-con1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 1rem 0 1rem;
+}
+.image-position{
+    color: white;
+}
+
+@media (max-width: 319px) {
+    /* Styles for screens up to 320 pixels */
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Styles for screens between 321 and 480 pixels */
+    .main-image {   
+        width: 100%;
+        height: 70vh;
+    }
+    .gh_mid {
+        gap: 0.5rem;
+    }
+    .gh_mid div {
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    .gh_right {
+        gap: 0.5rem;
+    }
+    .custom-next-arrow {
+        background-color: #a2a2a240;
+        padding: 0px 5px;
+        border-radius: 6px;
+    }
+    .custom-next-arrow svg{
+        height: 1rem;
+    }
+    .custom-prev-arrow {
+        background-color: #a2a2a240;
+        padding: 0px 5px;
+        border-radius: 6px;
+    }
+    .custom-prev-arrow svg{
+        height: 1rem;
+    }
+    .gallery-header {
+        display: none;
+    }
+    .gallery-header2{
+        display: block;
+    }
+    .main-gallery1 {
+        background-color: #000000f2;
+    }
+    .gh_right {
+        margin-right: 0rem;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Styles for screens between 321 and 480 pixels */
+    .main-image {   
+        height: 65vh;
+    }
+    .gh_mid {
+        gap: 0.5rem;
+    }
+    .gh_mid div {
+        font-size: 12px;
+    }
+    .gh_right {
+        gap: 0.5rem;
+    }
+    .custom-next-arrow {
+        background-color: #a2a2a240;
+        padding: 2px 5px;
+        border-radius: 6px;
+    }
+    .custom-prev-arrow {
+        background-color: #a2a2a240;
+        padding: 2px 5px;
+        border-radius: 6px;
+    }
+    .gallery-header {
+        display: none;
+    }
+    .gallery-header2{
+        display: block;
+    }
+    .main-gallery1 {
+        background-color: #000000f2;
+    }
+    .gh_right {
+        margin-right: 0rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Styles for screens between 321 and 480 pixels */
+    .main-image {   
+      height: 76vh;
+    }
+    .gh_mid {
+      gap: 0.5rem;
+    }
+    .gh_mid div {
+      font-size: 12px;
+    }
+    .gh_right {
+        gap: 0.5rem;
+    }
+}
+@media (min-width: 993px) {
+    /* Styles for screens above 993 pixels */
+}

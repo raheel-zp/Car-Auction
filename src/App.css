@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-btn button:hover{
+  background: #003949;
+}
+
+.custom_select{
+  border: none;
+  height: 2rem;
+  width: 11rem;
+  font-size: 12px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background-color: #ebebeb;
+  color: #65197a;
+}
+
+.bottom-banner-dots{
+  /* color: white; */
+  font-size: 29px;
+  margin-left: 1px;
+  padding-bottom: 8px;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
